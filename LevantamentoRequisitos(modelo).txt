@@ -1,0 +1,78 @@
+Documento de Levantamento de Requisitos
+Informações do Projeto
+Nome do Projeto: [Nome do Projeto]
+
+Data de Início: [Data de Início]
+
+Data de Conclusão Prevista: [Data de Conclusão Prevista]
+
+Responsável pelo Levantamento de Requisitos: [Nome do Responsável]
+
+Objetivo do Documento
+Este documento tem como objetivo registrar e definir os requisitos do sistema [Nome do Projeto], fornecendo uma visão abrangente dos recursos, funcionalidades e restrições do sistema.
+
+Contexto do Projeto
+Descrição do Projeto:
+[Inclua uma breve descrição do projeto, seus objetivos e contexto geral.]
+
+Usuários-alvo:
+[Liste os principais usuários ou grupos de usuários que serão impactados pelo sistema.]
+
+Escopo do Projeto:
+[Defina claramente o escopo do projeto, indicando o que está incluído e o que está excluído.]
+
+Requisitos Funcionais
+Módulo 1: [Nome do Módulo]
+1.1 Função 1: [Descrição]
+
+Requisitos:
+[Requisito 1]
+[Requisito 2]
+Linguagem Usada: [Linguagem de Programação]
+Library/Framework Utilizado: [Nome da Library/Framework]
+1.2 Função 2: [Descrição]
+
+...
+Módulo 2: [Nome do Módulo]
+...
+
+Requisitos Não Funcionais
+1. Desempenho:
+
+Requisito 1: [Descrição]
+Requisito 2: [Descrição]
+2. Usabilidade:
+
+Requisito 1: [Descrição]
+Requisito 2: [Descrição]
+3. Segurança:
+
+Requisito 1: [Descrição]
+Requisito 2: [Descrição]
+Restrições e Dependências
+Restrições:
+
+[Liste quaisquer restrições conhecidas que possam afetar o desenvolvimento ou a entrega do projeto.]
+Dependências:
+
+[Liste quaisquer dependências externas que afetem o cronograma ou a implementação.]
+Padrões e Convenções
+1. Padrões de Codificação:
+
+[Descreva os padrões de codificação a serem seguidos pela equipe de desenvolvimento.]
+2. Padrões de Documentação:
+
+[Descreva os padrões a serem seguidos para documentação de código, comentários e outros artefatos.]
+Ferramentas e Tecnologias
+1. Ambiente de Desenvolvimento Integrado (IDE):
+
+[Indique a IDE preferida ou a ser usada pela equipe.]
+2. Ferramentas de Controle de Versão:
+
+[Especifique a ferramenta de controle de versão a ser utilizada.]
+3. Outras Ferramentas:
+
+[Liste outras ferramentas essenciais para o desenvolvimento, teste e gerenciamento do projeto.]
+Aprovação
+Nome do Cliente ou Patrocinador: [Nome]
+Data de Aprovação: [Data]
