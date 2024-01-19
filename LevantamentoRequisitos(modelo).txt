@@ -1,78 +1,59 @@
-Documento de Levantamento de Requisitos
-Informações do Projeto
-Nome do Projeto: [Nome do Projeto]
+1. Introdução
 
-Data de Início: [Data de Início]
+O objetivo deste documento é descrever os requisitos para o desenvolvimento do projeto [Nome do Projeto]. O projeto será desenvolvido utilizando tecnologias como Docker, PHP, Composer e seguirá o paradigma de programação orientada a objetos.
 
-Data de Conclusão Prevista: [Data de Conclusão Prevista]
+2. Visão Geral do Projeto
 
-Responsável pelo Levantamento de Requisitos: [Nome do Responsável]
+O [Nome do Projeto] é uma aplicação web que visa [descrever brevemente a finalidade da aplicação]. A aplicação permitirá aos usuários [descrever as principais funcionalidades].
 
-Objetivo do Documento
-Este documento tem como objetivo registrar e definir os requisitos do sistema [Nome do Projeto], fornecendo uma visão abrangente dos recursos, funcionalidades e restrições do sistema.
+3. Requisitos Funcionais
 
-Contexto do Projeto
-Descrição do Projeto:
-[Inclua uma breve descrição do projeto, seus objetivos e contexto geral.]
+3.1. Autenticação de Usuários
 
-Usuários-alvo:
-[Liste os principais usuários ou grupos de usuários que serão impactados pelo sistema.]
+O sistema deve fornecer um sistema de autenticação seguro.
+Os usuários devem poder se registrar na plataforma.
+Os usuários devem poder fazer login na plataforma.
+3.2. Gerenciamento de Conteúdo
 
-Escopo do Projeto:
-[Defina claramente o escopo do projeto, indicando o que está incluído e o que está excluído.]
+Os usuários autenticados devem poder criar, editar e excluir conteúdos.
+Os conteúdos devem ser categorizados.
+Os usuários devem poder visualizar os conteúdos criados por eles.
+3.3. Integração com Docker
 
-Requisitos Funcionais
-Módulo 1: [Nome do Módulo]
-1.1 Função 1: [Descrição]
+O projeto deve ser configurado para uso do Docker.
+Deve haver scripts Docker para facilitar a inicialização e execução do ambiente.
+4. Requisitos Não Funcionais
 
-Requisitos:
-[Requisito 1]
-[Requisito 2]
-Linguagem Usada: [Linguagem de Programação]
-Library/Framework Utilizado: [Nome da Library/Framework]
-1.2 Função 2: [Descrição]
+4.1. Desempenho
 
-...
-Módulo 2: [Nome do Módulo]
-...
+A aplicação deve ser responsiva e fornecer uma experiência de usuário fluida.
+4.2. Segurança
 
-Requisitos Não Funcionais
-1. Desempenho:
+Todas as informações sensíveis devem ser armazenadas de forma segura.
+Deve haver proteção contra vulnerabilidades conhecidas.
+4.3. Manutenibilidade
 
-Requisito 1: [Descrição]
-Requisito 2: [Descrição]
-2. Usabilidade:
+O código deve seguir boas práticas de programação.
+Deve ser fácil realizar atualizações e manutenções no sistema.
+5. Tecnologias Utilizadas
 
-Requisito 1: [Descrição]
-Requisito 2: [Descrição]
-3. Segurança:
+Docker
+PHP (versão 8.X)
+Composer
+[Outras tecnologias específicas do projeto]
+6. Equipe de Desenvolvimento
 
-Requisito 1: [Descrição]
-Requisito 2: [Descrição]
-Restrições e Dependências
-Restrições:
+[Nome do Desenvolvedor] - Desenvolvedor Back-end
+[Nome do Desenvolvedor] - Desenvolvedor Front-end
+[Nome do Desenvolvedor] - DBA (Administrador de Banco de Dados)
+7. Cronograma de Desenvolvimento
 
-[Liste quaisquer restrições conhecidas que possam afetar o desenvolvimento ou a entrega do projeto.]
-Dependências:
+Atividade	Início	Término
+Levantamento de Requisitos	[Data]	[Data]
+Projeto e Arquitetura	[Data]	[Data]
+Desenvolvimento	[Data]	[Data]
+Testes	[Data]	[Data]
+Implantação	[Data]	[Data]
+8. Considerações Finais
 
-[Liste quaisquer dependências externas que afetem o cronograma ou a implementação.]
-Padrões e Convenções
-1. Padrões de Codificação:
-
-[Descreva os padrões de codificação a serem seguidos pela equipe de desenvolvimento.]
-2. Padrões de Documentação:
-
-[Descreva os padrões a serem seguidos para documentação de código, comentários e outros artefatos.]
-Ferramentas e Tecnologias
-1. Ambiente de Desenvolvimento Integrado (IDE):
-
-[Indique a IDE preferida ou a ser usada pela equipe.]
-2. Ferramentas de Controle de Versão:
-
-[Especifique a ferramenta de controle de versão a ser utilizada.]
-3. Outras Ferramentas:
-
-[Liste outras ferramentas essenciais para o desenvolvimento, teste e gerenciamento do projeto.]
-Aprovação
-Nome do Cliente ou Patrocinador: [Nome]
-Data de Aprovação: [Data]
+Este levantamento de requisitos serve como base para o desenvolvimento do projeto [Nome do Projeto]. É fundamental que todos os requisitos sejam seguidos para garantir o sucesso do projeto.
