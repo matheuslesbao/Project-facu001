@@ -14,5 +14,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Change www-data user to match the host system UID and GID and chown www directory
 # Defines that the image will have port 80 to expose
-EXPOSE 8000
+EXPOSE 23000
 WORKDIR /app
