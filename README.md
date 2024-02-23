@@ -1,23 +1,44 @@
 # Project-facu001
 
-Comandos sera usado para o uso do docker
-<h3> --Build </h3>
-docker-compose build: Constrói (ou reconstrói) as imagens dos serviços definidos no arquivo docker-compose.yml. </br>
-<h3> --Iniciando </h3>
-docker-compose up: Inicia os contêineres conforme definido no arquivo docker-compose.yml. </br>
-docker-compose up -d: Inicia os contêineres em segundo plano (detached mode). </br>
-ou  </br>
-docker-compose start: Inicia os contêineres para os serviços definidos no arquivo docker-compose.yml. </br>
-<h3>--Parando os contêineres </h3> 
- </br>
-docker-compose stop: Para os contêineres para os serviços definidos no arquivo docker-compose.yml, mantendo os recursos  associados. </br>
-ou </br>
-docker-compose down: Para e remove os contêineres, redes e volumes definidos no arquivo docker-compose.yml. </br>
-<h3>--Listando os contêineres </h3>
-docker-compose ps: Lista os contêineres em execução para os serviços definidos no arquivo docker-compose.yml. </br>
-<h3>--Reiniciando</h3>
-docker-compose restart: Para e reinicia os contêineres para os serviços definidos no arquivo docker-compose.yml. </br>
---Executando algum comando dentro do docker </br>
-docker-compose exec mysql mysql -u alunos -p (acessando o banco de dados no docker) </br>
-<h3>-- Exibição de logs</h3>
-docker-compose logs: Exibe logs de saída dos contêineres para todos os serviços definidos no arquivo docker-compose.yml. </br>
+### Pré-requisitos
+
+* Docker
+* Docker composer
+
+### Instalação
+
+Passo a passo para você rodar este projeto localmente:
+
+* crie um fork e clone na sua máquina
+* siga os comandos a baixo para subir a aplicação
+```
+$ docker compose up -d or docker-compose up
+$ docker exec app composer install
+
+```
+## Acesso ao mysql
+```
+docker-compose exec mysql mysql -u alunos -p
+```
+aplicação está disponível em [http://localhost:8000](http://localhost:8000)
+
+## Tecnologias utilizadas
+
+* Docker | Docker Compose
+* PHP 8.2
+* Nginx
+* Mysql
+## Modelagem de dados
+
+```markdown
+# Tabela: exemplo
+
+| Coluna      | Tipo          | Constraint
+|-------------|---------------|-------------
+| id          | INT (NOT NULL)| PK
+| name        | VARCHAR (255) |
+| username    | VARCHAR       | UK
+| email       | VARCHAR (255) | UK
+| password    | VARCHAR (255) |
+
+```
